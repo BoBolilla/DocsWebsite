@@ -1,17 +1,28 @@
 [
   {
-    "text": "Happy Birthday!",
-    "link": "/笔记/Happy Birthday!"
-  },
-  {
     "text": "AI",
     "collapsed": true,
-    "items": []
+    "items": [
+      {
+        "text": "梯度",
+        "link": "/笔记/AI/梯度"
+      },
+      {
+        "text": "深度学习综述",
+        "link": "/笔记/AI/深度学习综述"
+      }
+    ],
+    "link": "/笔记/AI/"
   },
   {
     "text": "算法",
     "collapsed": true,
-    "items": [],
+    "items": [
+      {
+        "text": "板子",
+        "link": "/笔记/算法/板子"
+      }
+    ],
     "link": "/笔记/算法/"
   },
   {
@@ -19,8 +30,8 @@
     "collapsed": true,
     "items": [
       {
-        "text": "英语",
-        "link": "/笔记/英语/英语"
+        "text": "凌乱记录",
+        "link": "/笔记/英语/凌乱记录"
       }
     ],
     "link": "/笔记/英语/"

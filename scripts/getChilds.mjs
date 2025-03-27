@@ -35,7 +35,7 @@ async function getRes(now, url = '/笔记/', nowDir = dir) {
         const isDirectory = fs.lstatSync(filePath).isDirectory();
         // 如果是能够构建路由的目录，则收集到数组中，稍后再 push
         if (isDirectory) {
-            if (fileName === 'black-box' || fileName === 'assets') continue;
+            if (fileName === 'black-box' || fileName === 'assets'|| (url === '/笔记/' && fileName === 'assets')) continue;
             directorys.push(fileName);
         } else {
             // 如果是文件，则直接 push 
