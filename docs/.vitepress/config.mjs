@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+import sidebar from './sideBarData.json'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/DocsWebsite',
@@ -19,16 +19,29 @@ export default defineConfig({
       { text: '笔记', link: '/笔记/' }
     ],
 
-    sidebar: [
-      {
-        text: '目录',
-        items: [
-          { text: 'Happy Birthday!', link: '/笔记/' },
-          { text: 'English', link: '/笔记/英语' }
-          
-        ]
-      }
-    ],
+    sidebar,
+    // sidebar: [
+    //   {
+    //     text: '目录',
+    //     items: [
+    //       { text: 'Happy Birthday!', link: '/笔记/' },
+    //       {
+    //         text: '英语',
+    //         collapsed: true,
+    //         items: [
+    //           { text: '英语', link: '/笔记/英语/英语' }
+    //         ]
+    //       },
+    //       {
+    //         text: '算法',
+    //         collapsed: true,
+    //         items: [
+    //           { text: '算法之旅', link: '/笔记/算法/' }
+    //         ]
+    //       }
+    //     ]
+    //   }
+    // ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/BoBolilla' }

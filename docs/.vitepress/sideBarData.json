@@ -1,0 +1,28 @@
+[
+  {
+    "text": "Happy Birthday!",
+    "link": "/笔记/Happy Birthday!"
+  },
+  {
+    "text": "AI",
+    "collapsed": true,
+    "items": []
+  },
+  {
+    "text": "算法",
+    "collapsed": true,
+    "items": [],
+    "link": "/笔记/算法/"
+  },
+  {
+    "text": "英语",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "英语",
+        "link": "/笔记/英语/英语"
+      }
+    ],
+    "link": "/笔记/英语/"
+  }
+]
