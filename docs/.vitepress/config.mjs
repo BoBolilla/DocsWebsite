@@ -49,12 +49,21 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/BoBolilla' }
     ],
+
+    lastUpdated: {
+      text: '最后一次编辑于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'short'
+      }
+    }
   },
   markdown: {
     math: true,
     image: {
       lazyLoading: true
     }
-  }
+  },
+  lastUpdated: true //时间戳
 })
 
