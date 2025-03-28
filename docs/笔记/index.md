@@ -1,9 +1,8 @@
-# BoBolilla's World的诞生!
+# BoBolilla's World的诞生
 
 ::: warning 新发现！
 2025年3月26日，BoBolilla's World诞生了！
 :::
-
 
 机缘巧合下看到一个学长的博客，里面记录了他的很多学习笔记还有读书笔记，真的是太酷了！🤩🤩
 

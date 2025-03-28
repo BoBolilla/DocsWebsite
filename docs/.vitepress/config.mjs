@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './sideBarData.json'
 // https://vitepress.dev/reference/site-config
+
+
+
 export default defineConfig({
   base: '/DocsWebsite',
   head: [['link', { rel: 'icon', href: '/cat_fish.svg' }]],
@@ -45,6 +48,13 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/BoBolilla' }
-    ]
+    ],
+  },
+  markdown: {
+    math: true,
+    image: {
+      lazyLoading: true
+    }
   }
 })
+
