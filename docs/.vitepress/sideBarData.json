@@ -1,20 +1,5 @@
 [
   {
-    "text": "AI",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "梯度",
-        "link": "/笔记/AI/梯度"
-      },
-      {
-        "text": "深度学习综述",
-        "link": "/笔记/AI/深度学习综述"
-      }
-    ],
-    "link": "/笔记/AI/"
-  },
-  {
     "text": "英语",
     "collapsed": true,
     "items": [
@@ -34,5 +19,31 @@
     "collapsed": true,
     "items": [],
     "link": "/笔记/算法/"
+  },
+  {
+    "text": "AI",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "梯度",
+        "link": "/笔记/AI/梯度"
+      },
+      {
+        "text": "深度学习综述",
+        "link": "/笔记/AI/深度学习综述"
+      },
+      {
+        "text": "生成式AI导论",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "第1讲：生成式AI是什么？",
+            "link": "/笔记/AI/生成式AI导论/第1讲：生成式AI是什么？"
+          }
+        ],
+        "link": "/笔记/AI/生成式AI导论/"
+      }
+    ],
+    "link": "/笔记/AI/"
   }
 ]
