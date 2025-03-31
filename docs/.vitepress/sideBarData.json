@@ -33,23 +33,38 @@
         "link": "/笔记/AI/深度学习综述"
       },
       {
-        "text": "生成式AI导论",
+        "text": "DeepLearning",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Batch Normalization",
+            "link": "/笔记/AI/DeepLearning/Batch Normalization"
+          },
+          {
+            "text": "CNN",
+            "link": "/笔记/AI/DeepLearning/CNN"
+          }
+        ],
+        "link": "/笔记/AI/DeepLearning/"
+      },
+      {
+        "text": "Generative AI",
         "collapsed": true,
         "items": [
           {
             "text": "第1讲：生成式AI是什么？",
-            "link": "/笔记/AI/生成式AI导论/第1讲：生成式AI是什么？"
+            "link": "/笔记/AI/Generative AI/第1讲：生成式AI是什么？"
           },
           {
             "text": "第2讲：从'工具'从'工具人'",
-            "link": "/笔记/AI/生成式AI导论/第2讲：从'工具'从'工具人'"
+            "link": "/笔记/AI/Generative AI/第2讲：从'工具'从'工具人'"
           },
           {
             "text": "第3讲：你可以训练你自己",
-            "link": "/笔记/AI/生成式AI导论/第3讲：你可以训练你自己"
+            "link": "/笔记/AI/Generative AI/第3讲：你可以训练你自己"
           }
         ],
-        "link": "/笔记/AI/生成式AI导论/"
+        "link": "/笔记/AI/Generative AI/"
       }
     ],
     "link": "/笔记/AI/"
