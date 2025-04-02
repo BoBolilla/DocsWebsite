@@ -2,7 +2,12 @@
   {
     "text": "算法",
     "collapsed": true,
-    "items": [],
+    "items": [
+      {
+        "text": "heap",
+        "link": "/笔记/算法/heap"
+      }
+    ],
     "link": "/笔记/算法/"
   },
   {
