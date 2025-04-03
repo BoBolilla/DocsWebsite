@@ -70,6 +70,17 @@
           }
         ],
         "link": "/笔记/AI/Generative AI/"
+      },
+      {
+        "text": "pytorch",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "DataLoader Dataset",
+            "link": "/笔记/AI/pytorch/DataLoader Dataset"
+          }
+        ],
+        "link": "/笔记/AI/pytorch/"
       }
     ],
     "link": "/笔记/AI/"
