@@ -1,11 +1,53 @@
 [
   {
+    "text": "Generative AI",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "第1讲：生成式AI是什么？",
+        "link": "/笔记/Generative AI/第1讲：生成式AI是什么？"
+      },
+      {
+        "text": "第2讲：从'工具'从'工具人'",
+        "link": "/笔记/Generative AI/第2讲：从'工具'从'工具人'"
+      },
+      {
+        "text": "第3讲：你可以训练你自己",
+        "link": "/笔记/Generative AI/第3讲：你可以训练你自己"
+      }
+    ],
+    "link": "/笔记/Generative AI/"
+  },
+  {
+    "text": "pytorch",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "DataLoader Dataset",
+        "link": "/笔记/pytorch/DataLoader Dataset"
+      },
+      {
+        "text": "others",
+        "link": "/笔记/pytorch/others"
+      },
+      {
+        "text": "save",
+        "link": "/笔记/pytorch/save"
+      }
+    ],
+    "link": "/笔记/pytorch/"
+  },
+  {
     "text": "算法",
     "collapsed": true,
     "items": [
       {
         "text": "heap",
         "link": "/笔记/算法/heap"
+      },
+      {
+        "text": "Lambda 表达式",
+        "link": "/笔记/算法/Lambda 表达式"
       }
     ],
     "link": "/笔记/算法/"
@@ -26,71 +68,40 @@
     "link": "/笔记/英语/"
   },
   {
-    "text": "AI",
+    "text": "深度学习",
     "collapsed": true,
     "items": [
       {
+        "text": "Batch Normalization",
+        "link": "/笔记/深度学习/Batch Normalization"
+      },
+      {
+        "text": "CNN",
+        "link": "/笔记/深度学习/CNN"
+      },
+      {
+        "text": "数据增广",
+        "link": "/笔记/深度学习/数据增广"
+      },
+      {
         "text": "梯度",
-        "link": "/笔记/AI/梯度"
+        "link": "/笔记/深度学习/梯度"
+      },
+      {
+        "text": "深度学习硬件",
+        "link": "/笔记/深度学习/深度学习硬件"
       },
       {
         "text": "深度学习综述",
-        "link": "/笔记/AI/深度学习综述"
+        "link": "/笔记/深度学习/深度学习综述"
       },
       {
-        "text": "Generative AI",
+        "text": "实验",
         "collapsed": true,
-        "items": [
-          {
-            "text": "第1讲：生成式AI是什么？",
-            "link": "/笔记/AI/Generative AI/第1讲：生成式AI是什么？"
-          },
-          {
-            "text": "第2讲：从'工具'从'工具人'",
-            "link": "/笔记/AI/Generative AI/第2讲：从'工具'从'工具人'"
-          },
-          {
-            "text": "第3讲：你可以训练你自己",
-            "link": "/笔记/AI/Generative AI/第3讲：你可以训练你自己"
-          }
-        ],
-        "link": "/笔记/AI/Generative AI/"
-      },
-      {
-        "text": "DeepLearning",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Batch Normalization",
-            "link": "/笔记/AI/DeepLearning/Batch Normalization"
-          },
-          {
-            "text": "CNN",
-            "link": "/笔记/AI/DeepLearning/CNN"
-          },
-          {
-            "text": "数据增广",
-            "link": "/笔记/AI/DeepLearning/数据增广"
-          },
-          {
-            "text": "深度学习硬件",
-            "link": "/笔记/AI/DeepLearning/深度学习硬件"
-          }
-        ],
-        "link": "/笔记/AI/DeepLearning/"
-      },
-      {
-        "text": "pytorch",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "DataLoader Dataset",
-            "link": "/笔记/AI/pytorch/DataLoader Dataset"
-          }
-        ],
-        "link": "/笔记/AI/pytorch/"
+        "items": [],
+        "link": "/笔记/深度学习/实验/"
       }
     ],
-    "link": "/笔记/AI/"
+    "link": "/笔记/深度学习/"
   }
 ]
