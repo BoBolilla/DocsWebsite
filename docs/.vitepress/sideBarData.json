@@ -1,24 +1,5 @@
 [
   {
-    "text": "Generative AI",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "第1讲：生成式AI是什么？",
-        "link": "/笔记/Generative AI/第1讲：生成式AI是什么？"
-      },
-      {
-        "text": "第2讲：从'工具'从'工具人'",
-        "link": "/笔记/Generative AI/第2讲：从'工具'从'工具人'"
-      },
-      {
-        "text": "第3讲：你可以训练你自己",
-        "link": "/笔记/Generative AI/第3讲：你可以训练你自己"
-      }
-    ],
-    "link": "/笔记/Generative AI/"
-  },
-  {
     "text": "pytorch",
     "collapsed": true,
     "items": [
@@ -38,6 +19,25 @@
     "link": "/笔记/pytorch/"
   },
   {
+    "text": "Generative AI",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "第1讲：生成式AI是什么？",
+        "link": "/笔记/Generative AI/第1讲：生成式AI是什么？"
+      },
+      {
+        "text": "第2讲：从'工具'从'工具人'",
+        "link": "/笔记/Generative AI/第2讲：从'工具'从'工具人'"
+      },
+      {
+        "text": "第3讲：你可以训练你自己",
+        "link": "/笔记/Generative AI/第3讲：你可以训练你自己"
+      }
+    ],
+    "link": "/笔记/Generative AI/"
+  },
+  {
     "text": "算法",
     "collapsed": true,
     "items": [
@@ -48,6 +48,14 @@
       {
         "text": "Lambda 表达式",
         "link": "/笔记/算法/Lambda 表达式"
+      },
+      {
+        "text": "板子",
+        "link": "/笔记/算法/板子"
+      },
+      {
+        "text": "连通块",
+        "link": "/笔记/算法/连通块"
       }
     ],
     "link": "/笔记/算法/"
