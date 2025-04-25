@@ -1,24 +1,5 @@
 [
   {
-    "text": "pytorch",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "DataLoader Dataset",
-        "link": "/笔记/pytorch/DataLoader Dataset"
-      },
-      {
-        "text": "others",
-        "link": "/笔记/pytorch/others"
-      },
-      {
-        "text": "save",
-        "link": "/笔记/pytorch/save"
-      }
-    ],
-    "link": "/笔记/pytorch/"
-  },
-  {
     "text": "Generative AI",
     "collapsed": true,
     "items": [
@@ -36,6 +17,25 @@
       }
     ],
     "link": "/笔记/Generative AI/"
+  },
+  {
+    "text": "pytorch",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "DataLoader Dataset",
+        "link": "/笔记/pytorch/DataLoader Dataset"
+      },
+      {
+        "text": "others",
+        "link": "/笔记/pytorch/others"
+      },
+      {
+        "text": "save",
+        "link": "/笔记/pytorch/save"
+      }
+    ],
+    "link": "/笔记/pytorch/"
   },
   {
     "text": "算法",
@@ -63,6 +63,10 @@
       {
         "text": "3_The Paradise of Palau",
         "link": "/笔记/英语/3_The Paradise of Palau"
+      },
+      {
+        "text": "rarely和really",
+        "link": "/笔记/英语/rarely和really"
       },
       {
         "text": "凌乱记录",
