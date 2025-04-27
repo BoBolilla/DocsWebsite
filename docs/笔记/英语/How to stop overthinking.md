@@ -4,28 +4,6 @@
 
 ## article
 
-**Daniel:** "Hey there, everyone! Welcome back to the English Leap Podcast! I'm Daniel, here as always with the amazing Erin. We're so happy you've joined us today."
-
-**Erin:** "Hi, everyone! Let's kick things off with a quick question: Have you ever had one of those nights where your brain just won't switch off? You're lying in bed, staring at the ceiling, and suddenly you're replaying something embarrassing you said years ago. Or, worse, you start imagining how everything tomorrow could go horribly wrong?"
-
-**Daniel:** "Oh, totally! Or how about this—you're texting someone, and they don't reply for an hour. Instead of assuming they're busy, you think, 'They hate me. I've ruined everything. I'm going to die alone!' Sound familiar?"
-
-**Erin:** "It's like our brains have a talent for turning the tiniest things into a full-on drama. That's why today we're talking about something we all deal with: how to stop overthinking."
-
-**Daniel:** "Right! Overthinking isn't just tiring—it's like running on a hamster wheel. You're moving, but you're getting nowhere. But don't worry, we've got you covered today with some practical tips to help you hop off that wheel and actually relax."
-
-**Erin:** "And to make it even better, we're bringing in Lucy, who is fantastic at explaining things in a way that's super easy to understand—and fun too! She's going to share ways to quiet that overactive brain and feel more in control of your thoughts."
-
-**Daniel:** "And, of course, we'll be learning some awesome English phrases and vocabulary along the way. Because hey, if we're going to tackle overthinking, we might as well improve our English while we're at it, right?"
-
-**Erin:** "Exactly! So, if you've ever been stuck in an endless loop of 'what ifs' or 'should I have said that?'—don't worry, we've all been there. This episode is for you."
-
-**Daniel:** "Alright, let's not overthink it—let's get started! Time to welcome Lucy and dive into today's episode on stopping overthinking. You're going to love this one!"
-
-**Erin:** "Let's do it!"
-
----
-
 Imagine a child flying a kite on a bright, breezy afternoon. The sky is clear, the wind is perfect, and the kite soars higher and higher. The child smiles, tugging the string to keep it balanced. But suddenly, the string begins to tangle. In a rush to fix it, the child pulls harder, twisting the string more. The kite wobbles(vi. 摇晃；摇摆；游移不定), falters, and then crashes to the ground. The fun moment turns frustrating.
 
 Now picture this: what if the child had paused, taken a breath, and gently worked through the knots instead of panicking? The kite would have flown again, free and graceful.
@@ -151,16 +129,3 @@ Remember, overthinking isn't who you are—it's something you do. And with patie
 
 **Meaning:** A bowl with small holes used to drain water from food, like pasta.  
 **Example:** "After cooking the spaghetti, she poured it into the colander to drain the water."
-
-Daniel: "Well, that wraps up today's episode! We hope you found it helpful in understanding how to stop overthinking and picked up some useful tips and vocabulary along the way." 丹尼尔:"好了,今天的节目就到这里了!我们希望你在理解如何停止过度思 考方面有所收获,并且在这个过程中也学到了一些有用的建议和词汇。"
-
-Erin: "Thanks for joining us on the English Leap Podcast! If you enjoyed this episode, be sure to subscribe and download the episode PDF. It's packed with all the tips and key phrases we covered today to help you reflect and practice."
-
-艾琳:"感谢收听《英语飞跃》播客!如果你喜欢这一期节目,一定要订阅并
-下载节目PDF文件。里面包含了我们今天讨论的所有建议和关键短语,能帮助 你回顾和练习。"
-
-Daniel: "And remember, progress takes time. The more you listen and practice, the more confident you'll become. We're here every week to guide you on your journey." 丹尼尔:"记住,进步需要时间。你听的越多,练习得越多,就会变得越自 信。我们每周都会在这里,为你的学习之旅提供指导。"
-
-Erin: "See you in the next episode, everyone! Until then, take a deep breath, trust yourself, and keep making those leaps toward better English—and a calmer mind!" 艾琳:"大家下期节目再见!在那之前,深吸一口气,相信自己,继续朝着更 好的英语水平——以及更平静的心态迈进!"
-
-Daniel: "Bye for now, and as always, happy learning!" 丹尼尔:"暂时再见啦,一如既往,祝学习愉快!"
