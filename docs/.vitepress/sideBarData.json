@@ -38,32 +38,9 @@
     "link": "/笔记/pytorch/"
   },
   {
-    "text": "算法",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "heap",
-        "link": "/笔记/算法/heap"
-      },
-      {
-        "text": "Lambda 表达式",
-        "link": "/笔记/算法/Lambda 表达式"
-      },
-      {
-        "text": "连通块",
-        "link": "/笔记/算法/连通块"
-      }
-    ],
-    "link": "/笔记/算法/"
-  },
-  {
     "text": "英语",
     "collapsed": true,
     "items": [
-      {
-        "text": "3_The Paradise of Palau",
-        "link": "/笔记/英语/3_The Paradise of Palau"
-      },
       {
         "text": "How to stop overthinking",
         "link": "/笔记/英语/How to stop overthinking"
@@ -71,6 +48,10 @@
       {
         "text": "rarely和really",
         "link": "/笔记/英语/rarely和really"
+      },
+      {
+        "text": "The Paradise of Palau",
+        "link": "/笔记/英语/The Paradise of Palau"
       },
       {
         "text": "凌乱记录",
@@ -115,5 +96,34 @@
       }
     ],
     "link": "/笔记/深度学习/"
+  },
+  {
+    "text": "算法",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "heap",
+        "link": "/笔记/算法/heap"
+      },
+      {
+        "text": "Lambda 表达式",
+        "link": "/笔记/算法/Lambda 表达式"
+      },
+      {
+        "text": "连通块",
+        "link": "/笔记/算法/连通块"
+      },
+      {
+        "text": "题解",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "最小覆盖子串",
+            "link": "/笔记/算法/题解/最小覆盖子串"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/算法/"
   }
 ]
