@@ -42,6 +42,10 @@
     "collapsed": true,
     "items": [
       {
+        "text": "偶遇的知识点",
+        "link": "/笔记/科研/偶遇的知识点"
+      },
+      {
         "text": "论文检索网站",
         "link": "/笔记/科研/论文检索网站"
       }
@@ -79,6 +83,53 @@
     "link": "/笔记/英语/"
   },
   {
+    "text": "阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "富爸爸穷爸爸",
+        "link": "/笔记/阅读/富爸爸穷爸爸"
+      }
+    ]
+  },
+  {
+    "text": "算法",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "auto i与auto& i",
+        "link": "/笔记/算法/auto i与auto& i"
+      },
+      {
+        "text": "heap",
+        "link": "/笔记/算法/heap"
+      },
+      {
+        "text": "Lambda 表达式",
+        "link": "/笔记/算法/Lambda 表达式"
+      },
+      {
+        "text": "连通块",
+        "link": "/笔记/算法/连通块"
+      },
+      {
+        "text": "题解",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "最小覆盖子串",
+            "link": "/笔记/算法/题解/最小覆盖子串"
+          },
+          {
+            "text": "螺旋矩阵",
+            "link": "/笔记/算法/题解/螺旋矩阵"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/算法/"
+  },
+  {
     "text": "深度学习",
     "collapsed": true,
     "items": [
@@ -113,43 +164,15 @@
       {
         "text": "实验",
         "collapsed": true,
-        "items": [],
+        "items": [
+          {
+            "text": "GhostNet轻量化",
+            "link": "/笔记/深度学习/实验/GhostNet轻量化"
+          }
+        ],
         "link": "/笔记/深度学习/实验/"
       }
     ],
     "link": "/笔记/深度学习/"
-  },
-  {
-    "text": "算法",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "heap",
-        "link": "/笔记/算法/heap"
-      },
-      {
-        "text": "Lambda 表达式",
-        "link": "/笔记/算法/Lambda 表达式"
-      },
-      {
-        "text": "连通块",
-        "link": "/笔记/算法/连通块"
-      },
-      {
-        "text": "题解",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "最小覆盖子串",
-            "link": "/笔记/算法/题解/最小覆盖子串"
-          },
-          {
-            "text": "螺旋矩阵",
-            "link": "/笔记/算法/题解/螺旋矩阵"
-          }
-        ]
-      }
-    ],
-    "link": "/笔记/算法/"
   }
 ]
