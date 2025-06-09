@@ -1,9 +1,11 @@
-# Batch Normalization
+## Batch Normalization vs Layer Normalization
+
+## Batch Normalization
 
 [李宏毅](https://www.youtube.com/watch?v=BZh1ltr5Rkg&t=49s)  
 [李沐](https://www.bilibili.com/video/BV1X44y1r77r?spm_id_from=333.788.recommend_more_video.0&vd_source=4e1dceccc918063def66c9d643674c6a)
 
-## Feature Scaling
+### Feature Scaling
 
 >Make different features have the same scaling
 
@@ -42,14 +44,14 @@ Feature Normalization对输入数据很有用，因为输入数据不会改变�
 
 所以发明了Batch Normalization解决这个问题。
 
-## Batch Normalization
+### Batch Normalization
 
-### Batch（批）
+#### Batch（批）
 
 Batch意指在训练过程中每次取一把出来计算，下图范例一次取三笔数据出来平行运算，但在GPU计算中会将三个Vector转成Matrix，以此加速计算速度。
 ![](assets/2025-03-31-20-55-52.png)
 
-### BN
+#### BN
 
 Batch normalization可以实作在activation function的input或output，但论文较多是作在input，也就是在计算出z之后就先经过BN再执行activation function，这么做的好处在于可以确保不会让值域落在微分值较小的地方， 以为Sigmoid例，如果值域落在两端极值，那微分值太小，不好收敛。
 
@@ -63,7 +65,7 @@ m个样本，每个样本n个特征，就是一个m*n的矩阵，BN就是对每�
 每个像素点（通道数为100）作为一个样本，相当于它是一个具有100维特征的样本  
 ![](assets/2025-03-31-21-58-54.png)
 
-### 如何测试
+如何测试
 
 但在测试过程中的一个问题在于，训练过程可能是Batch，但测试的时候却可能是一笔资料，只有一笔资料是估不出$\mu$ $\sigma$，怎么办？
 
@@ -71,7 +73,7 @@ m个样本，每个样本n个特征，就是一个m*n的矩阵，BN就是对每�
 * 另一种作法是将过程中的$\mu$ $\sigma$计算平均，但训练过程中的参数不断变化，得到的$\mu$ $\sigma$也差异过大，因此较能执行的作法是让训练结束前的区间有较大的权重，初始训练过程中的区间给予较小的权重， 如RMSProp
 ![](assets/2025-03-31-21-25-45.png)
 
-## 代码实现
+### 代码实现
 
 ```python
 import torch
@@ -144,20 +146,115 @@ class BatchNorm(nn.Module):
         return Y
 ```
 
-## 优点
+### 优点
 
 * 解決Internal Covariate Shift的問題，从此不再只能设非常小的值lr
 * 有效解決geadient 消失/爆炸，确保Output都在0的附近（斜率较大的地方）
 * 模型受权重初始化的影响较小，当权重乘上k倍，$\mu$ $\sigma$也都有k倍的影响，分子分母皆有k倍影响就代表什么没有影响。
 * 有人说，BN可以减少overfitting的问题（如果数据有偏移，可以把他normalization回来），有正规化的效果。
   
+
 ![](assets/2025-03-31-21-31-52.png)
 
 对随机的小偏量内部添加噪音，确保学习的健壮性
 ![](assets/2025-03-31-21-59-31.png)
 
-## 总结
+### 总结
 
 * 一般用在较深的网络中
 * 批量归一化固定小批量中的均值和方差，然 后学习出适合的偏移和缩放
 * 可以加速收敛速度（学习率可以调大），但一般不改变模型精度
+
+## Layer Normalization
+
+LayerNorm（[Layer Normalization](https://arxiv.org/abs/1607.06450)）是2016年提出的，随着Transformer等模型的大规模推广，LayerNorm出现频率也随之越来越高。**其大体思想类似于BatchNorm，对输入的每个样本进行归一化处理，具体就是计算每个输入的均值和方差，归一化到均值为0，方差为1，另外还会学习$g$和$b$来将方差和均值缩放从任意值。**  
+
+![img](./assets/1188959-20240726165002467-1129557946.png)
+
+LayerNorm可以帮助模型收敛，原文中解释是**因为其对输入进行了归一化操作，使得数据的分布更加稳定。**
+
+![img](./assets/1188959-20240726165426893-755358430.png)
+
+另外一篇文章[Understanding and Improving Layer Normalization](https://proceedings.neurips.cc/paper_files/paper/2019/file/2f4fe03d77724a7217006e5d16728874-Paper.pdf)从梯度的角度对LayerNorm进行了分析，这篇文章的作者发现了以下两个结论，并提出了一个改进方法称为AdaNorm。
+
+- LayerNorm 中引入的 gain 和 bias，可能会导致 overfitting，去掉他们能够在很多情况下提升性能
+- 和前向的 normalization 相比，norm 操作之中因为均值和方差而引入的梯度在稳定训练中起到了更大的作用
+
+## BN vs LN
+
+BatchNorm是对一个batch-size样本内的每个特征[分别]做归一化，LayerNorm是[分别]对每个样本的所有特征做归一化。  
+
+### 理解
+
+![preview](./assets/93fd3537bc179a8184ad98719e245562.png)
+
+```markdown
+        [样本1的特征1,  样本1的特征2,  样本1的特征3]   <- 样本1
+矩阵 =  [样本2的特征1,  样本2的特征2,  样本2的特征3]   <- 样本2
+        [样本3的特征1,  样本3的特征2,  样本3的特征3]   <- 样本3
+        \____特征1__/   \____特征2__/   \____特征3__/
+                ↓               ↓               ↓
+```
+
+- **BN (批归一化)：**
+  - 对 **特征1列**：计算 `样本1的特征1, 样本2的特征1, 样本3的特征1` 的均值和标准差，然后归一化这一列。
+  - 对 **特征2列**：同样计算 `样本1的特征2, 样本2的特征2, 样本3的特征2` 的均值和标准差，归一化这一列。
+  - 以此类推。
+  - **箭头方向：** 📍 沿着 **列方向（↓）**，跨行（样本）操作。
+- **LN (层归一化)：**
+  - 对 **样本1行**：计算 `样本1的特征1, 样本1的特征2, 样本1的特征3` 的均值和标准差，然后归一化整行。
+  - 对 **样本2行**：计算 `样本2的特征1, 样本2的特征2, 样本2的特征3` 的均值和标准差，归一化整行。
+  - 以此类推。
+  - **箭头方向：** → 沿着 **行方向（→）**，跨列（特征）操作。
+
+### 适用场景不同
+
+1. **依赖关系：**
+
+   - **BN：** 依赖于一个**足够大的批次(Batch Size)** 来计算稳定的均值和标准差。如果Batch Size太小（比如只有1或2），计算出来的均值和标准差波动会非常大，效果会很差甚至有害。
+   - **LN：** **不依赖其他样本，也不需要大Batch Size**。因为它只用自己的信息来归一化自己。在小批量甚至单个样本上也工作得很好。
+
+2. **对序列数据的友好度：**
+
+   - **BN：** 处理**固定长度**的数据（如图像）很好，但在处理**变长序列数据**（如句子、语音）时就麻烦了。不同序列长度不同，统计量计算不一致，难以标准化。RNN/LSTM/Transformer等网络结构在训练时很难用BN。
+
+   - **LN：** 天然适合**序列模型和变长数据**！因为它对每个样本（每个时间步）独立做归一化，不管其他样本（时间步）的数据。这就是为什么Transformer等模型普遍用LN而不是BN。
+
+     > 我是中国人我爱中国
+     >
+     > 武汉抗疫非常成功0
+     >
+     > 大家好才是真的好0
+     >
+     > 人工智能很火000
+     >
+     > 上面的4条文本数据组成了一个batch的数据，那么BN的操作的时候
+     >
+     > 就会把4条文本相同位置的字来做归一化处理，例如：我、武、大、人
+     >
+     > 这里就破坏了一句话内在语义的联系。
+     >
+     > 而LN则是针对每一句话做归一化处理。例如：我是中国人我爱中国——归一化处理后，一句话内每个字之间的联系并没有破坏。从这个角度看，LN就比较适合NLP任务，也就是bert和Transformer用的比较多。
+     > 
+
+3. **训练和预测的一致性：**
+
+   - **BN：** 训练时用**当前批次的统计量**，预测时用的是**整个训练数据估算的（移动平均）固定统计量**。训练和预测的行为略有差异。
+   - **LN：** 不管是训练还是预测，它都**只依赖于当前样本自身的统计量**来计算归一化。训练和预测的行为是一致的。
+
+
+
+| 特点                   | Batch Normalization (BN)                          | Layer Normalization (LN)                                     |
+| :--------------------- | :------------------------------------------------ | :----------------------------------------------------------- |
+| **归一化方向**         | **垂直方向（列方向）** - 跨样本归一化**同一特征** | **水平方向（行方向）** - 在**同一个样本内**归一化**所有特征** |
+| **依赖样本关系？**     | 是的，依赖一批样本中的其他样本                    | 不，只依赖当前样本本身                                       |
+| **对Batch Size的要求** | 要求较大的Batch Size (e.g., 32, 64)               | 不敏感，在小Batch Size甚至单样本下有效                       |
+| **适合数据类型**       | 固定长度的数据 (如图像)                           | 变长序列数据 (如文本、语音、RNN/Transformer)                 |
+| **训练/预测一致性**    | 需要特殊处理 (用Running Mean/Variance)            | 天然一致                                                     |
+| **常见应用领域**       | Convolutional Neural Networks (CNN)               | Transformers, RNNs, LSTMs, NLP任务                           |
+
+## Reference
+
+[关于batch normalization和layer normalization的理解_bn和ln原理-CSDN博客](https://blog.csdn.net/HUSTHY/article/details/106665809)
+
+[Layer Normalization - 半夜打老虎 - 博客园](https://www.cnblogs.com/xiaxuexiaoab/p/18325271)

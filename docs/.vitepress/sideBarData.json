@@ -42,12 +42,30 @@
     "collapsed": true,
     "items": [
       {
+        "text": "method",
+        "link": "/笔记/科研/method"
+      },
+      {
         "text": "偶遇的知识点",
         "link": "/笔记/科研/偶遇的知识点"
       },
       {
+        "text": "英语表达",
+        "link": "/笔记/科研/英语表达"
+      },
+      {
         "text": "论文检索网站",
         "link": "/笔记/科研/论文检索网站"
+      }
+    ]
+  },
+  {
+    "text": "阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "富爸爸穷爸爸",
+        "link": "/笔记/阅读/富爸爸穷爸爸"
       }
     ]
   },
@@ -83,14 +101,68 @@
     "link": "/笔记/英语/"
   },
   {
-    "text": "阅读",
+    "text": "深度学习",
     "collapsed": true,
     "items": [
       {
-        "text": "富爸爸穷爸爸",
-        "link": "/笔记/阅读/富爸爸穷爸爸"
+        "text": "Batch Normalization vs Layer Normalization",
+        "link": "/笔记/深度学习/Batch Normalization vs Layer Normalization"
+      },
+      {
+        "text": "CNN",
+        "link": "/笔记/深度学习/CNN"
+      },
+      {
+        "text": "cuda环境切换",
+        "link": "/笔记/深度学习/cuda环境切换"
+      },
+      {
+        "text": "数据增广",
+        "link": "/笔记/深度学习/数据增广"
+      },
+      {
+        "text": "梯度",
+        "link": "/笔记/深度学习/梯度"
+      },
+      {
+        "text": "深度学习硬件",
+        "link": "/笔记/深度学习/深度学习硬件"
+      },
+      {
+        "text": "深度学习综述",
+        "link": "/笔记/深度学习/深度学习综述"
+      },
+      {
+        "text": "NLP",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "BERT",
+            "link": "/笔记/深度学习/NLP/BERT"
+          },
+          {
+            "text": "Self-attention",
+            "link": "/笔记/深度学习/NLP/Self-attention"
+          },
+          {
+            "text": "Transformer",
+            "link": "/笔记/深度学习/NLP/Transformer"
+          }
+        ]
+      },
+      {
+        "text": "实验",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "GhostNet轻量化",
+            "link": "/笔记/深度学习/实验/GhostNet轻量化"
+          }
+        ],
+        "link": "/笔记/深度学习/实验/"
       }
-    ]
+    ],
+    "link": "/笔记/深度学习/"
   },
   {
     "text": "算法",
@@ -128,51 +200,5 @@
       }
     ],
     "link": "/笔记/算法/"
-  },
-  {
-    "text": "深度学习",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "Batch Normalization",
-        "link": "/笔记/深度学习/Batch Normalization"
-      },
-      {
-        "text": "CNN",
-        "link": "/笔记/深度学习/CNN"
-      },
-      {
-        "text": "cuda环境切换",
-        "link": "/笔记/深度学习/cuda环境切换"
-      },
-      {
-        "text": "数据增广",
-        "link": "/笔记/深度学习/数据增广"
-      },
-      {
-        "text": "梯度",
-        "link": "/笔记/深度学习/梯度"
-      },
-      {
-        "text": "深度学习硬件",
-        "link": "/笔记/深度学习/深度学习硬件"
-      },
-      {
-        "text": "深度学习综述",
-        "link": "/笔记/深度学习/深度学习综述"
-      },
-      {
-        "text": "实验",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "GhostNet轻量化",
-            "link": "/笔记/深度学习/实验/GhostNet轻量化"
-          }
-        ],
-        "link": "/笔记/深度学习/实验/"
-      }
-    ],
-    "link": "/笔记/深度学习/"
   }
 ]
