@@ -64,17 +64,17 @@ Encoder 的任务是**输入一排向量，然后输出同样长度的一排向�
 
 Encoder 里会**有很多的 Block**，**每一个 Block 都是输入一排向量，输出一排等长度的向量**。最后一个 Block 的输出作为 Encoder 的输出。  
 
-**每一个 Block 并不是 neural network 的一层**，是因为每一个 Block 里是好几个 layer 在做事。    
+**每一个 Block 并不是 neural network 的一层**，是因为每一个 Block 里是好几个 layer 在做事。
 
-（简单版）Block 先**做一个 Self-attention**，考虑整个 sequence 的资讯，输出一排向量，**丢入全连接前馈网络**，得到 Block 的输出。     
+（简单版）Block 先**做一个 Self-attention**，考虑整个 sequence 的资讯，输出一排向量，**丢入全连接前馈网络**，得到 Block 的输出。
 
 ![image-20240305131904262](./assets/2024073-20240305131905663-1290349957.png)
 
-实际上 Transformer 里做的事情是更复杂的，在每个子层（自注意力层和全连接前馈网络）的输入和输出之间应用残差连接（**Residual Connection**），并对输出进行层归一化（[**Layer Normalization**](../Batch Normalization vs Layer Normalization)）。
+实际上 Transformer 里做的事情是更复杂的，在每个子层（自注意力层和全连接前馈网络）的输入和输出之间应用残差连接（**Residual Connection**），并对输出进行层归一化（[Layer Normalization](../Batch%20Normalization%20vs%20Layer%20Normalization.md)）。
 
 $$Output=LayerNorm(Input+Sublayer(Input))$$
 
-其中，$\text{Sublayer} $代表子层（如自注意力层或全连接前馈网络），$\text{LayerNorm} $表示层归一化操作。
+其中，$\text{Sublayer}$代表子层（如自注意力层或全连接前馈网络），$\text{LayerNorm}$表示层归一化操作。
 
 ![image-20240305134447812](./assets/2024073-20240305134449352-579479501.png)
 
@@ -144,7 +144,7 @@ Decoder 如何停止输出呢？
 
 ![image-20240305163628252](./assets/2024073-20240305163629891-1289957614.png)
 
-可以准备一个特殊符号作为结束符号——** **，期待当需要停止输出时会输出 END。
+可以准备一个特殊符号作为结束符号，期待当需要停止输出时会输出 END。
 
 ![image-20240305164254532](./assets/2024073-20240305164256689-1774339779.png)
 
@@ -160,7 +160,7 @@ NAT Decoder 通过输入一排开始符号，并行生成所有位置的输出�
 
 ![image-20240305164551000](./assets/2024073-20240305164552598-245146565.png)
 
-更多有关 NAT Decoder 的内容可参考 https://youtu.be/jvyKmU4OM3c。
+更多有关 NAT Decoder 的内容可参考 <https://youtu.be/jvyKmU4OM3c。>
 
 ------
 
@@ -315,7 +315,7 @@ Beam Search 缺乏多样性，不适合如句子补全、语音合成这种机�
 
 ## Reference
 
-[【機器學習2021】Transformer (上) ](https://www.youtube.com/watch?v=n9TlOhRjYoc)
+[【機器學習2021】Transformer (上)](https://www.youtube.com/watch?v=n9TlOhRjYoc)
 
 [【機器學習2021】Transformer (下)](https://www.youtube.com/watch?v=N6aRv06iv2g)
 
