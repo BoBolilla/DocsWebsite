@@ -14,6 +14,10 @@
       {
         "text": "第3讲：你可以训练你自己",
         "link": "/笔记/Generative AI/第3讲：你可以训练你自己"
+      },
+      {
+        "text": "第4讲： 大型语言模型的训练过程",
+        "link": "/笔记/Generative AI/第4讲： 大型语言模型的训练过程"
       }
     ],
     "link": "/笔记/Generative AI/"
@@ -61,6 +65,32 @@
     "link": "/笔记/科研/"
   },
   {
+    "text": "课程内容",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "人工智能",
+        "link": "/笔记/课程内容/人工智能"
+      },
+      {
+        "text": "深度学习",
+        "link": "/笔记/课程内容/深度学习"
+      }
+    ],
+    "link": "/笔记/课程内容/"
+  },
+  {
+    "text": "阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "富爸爸穷爸爸",
+        "link": "/笔记/阅读/富爸爸穷爸爸"
+      }
+    ],
+    "link": "/笔记/阅读/"
+  },
+  {
     "text": "英语",
     "collapsed": true,
     "items": [
@@ -90,32 +120,6 @@
       }
     ],
     "link": "/笔记/英语/"
-  },
-  {
-    "text": "阅读",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "富爸爸穷爸爸",
-        "link": "/笔记/阅读/富爸爸穷爸爸"
-      }
-    ],
-    "link": "/笔记/阅读/"
-  },
-  {
-    "text": "课程内容",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "人工智能",
-        "link": "/笔记/课程内容/人工智能"
-      },
-      {
-        "text": "深度学习",
-        "link": "/笔记/课程内容/深度学习"
-      }
-    ],
-    "link": "/笔记/课程内容/"
   },
   {
     "text": "深度学习",
@@ -180,6 +184,27 @@
       }
     ],
     "link": "/笔记/深度学习/"
+  },
+  {
+    "text": "文献阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "索引",
+        "link": "/笔记/文献阅读/索引"
+      },
+      {
+        "text": "202507",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer",
+            "link": "/笔记/文献阅读/202507/Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/文献阅读/"
   },
   {
     "text": "算法",
