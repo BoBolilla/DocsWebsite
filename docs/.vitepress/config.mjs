@@ -50,6 +50,11 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/BoBolilla' }
     ],
 
+     outline: {
+      level: [2, 3], // 显示 h2 和 h3 标题
+      label: '本页目录' // 可选：自定义大纲标题
+    },
+
     lastUpdated: {
       text: '最后一次编辑于',
       formatOptions: {

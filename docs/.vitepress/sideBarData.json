@@ -1,24 +1,5 @@
 [
   {
-    "text": "pytorch",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "DataLoader Dataset",
-        "link": "/笔记/pytorch/DataLoader Dataset"
-      },
-      {
-        "text": "others",
-        "link": "/笔记/pytorch/others"
-      },
-      {
-        "text": "save",
-        "link": "/笔记/pytorch/save"
-      }
-    ],
-    "link": "/笔记/pytorch/"
-  },
-  {
     "text": "Generative AI",
     "collapsed": true,
     "items": [
@@ -42,6 +23,25 @@
     "link": "/笔记/Generative AI/"
   },
   {
+    "text": "pytorch",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "DataLoader Dataset",
+        "link": "/笔记/pytorch/DataLoader Dataset"
+      },
+      {
+        "text": "others",
+        "link": "/笔记/pytorch/others"
+      },
+      {
+        "text": "save",
+        "link": "/笔记/pytorch/save"
+      }
+    ],
+    "link": "/笔记/pytorch/"
+  },
+  {
     "text": "科研",
     "collapsed": true,
     "items": [
@@ -63,6 +63,17 @@
       }
     ],
     "link": "/笔记/科研/"
+  },
+  {
+    "text": "阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "富爸爸穷爸爸",
+        "link": "/笔记/阅读/富爸爸穷爸爸"
+      }
+    ],
+    "link": "/笔记/阅读/"
   },
   {
     "text": "英语",
@@ -111,17 +122,6 @@
     "link": "/笔记/课程内容/"
   },
   {
-    "text": "阅读",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "富爸爸穷爸爸",
-        "link": "/笔记/阅读/富爸爸穷爸爸"
-      }
-    ],
-    "link": "/笔记/阅读/"
-  },
-  {
     "text": "文献阅读",
     "collapsed": true,
     "items": [
@@ -140,11 +140,79 @@
           {
             "text": "Layer by Layer Uncovering Hidden Representations in Language Models",
             "link": "/笔记/文献阅读/202507/Layer by Layer Uncovering Hidden Representations in Language Models"
+          },
+          {
+            "text": "TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification",
+            "link": "/笔记/文献阅读/202507/TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification"
           }
         ]
       }
     ],
     "link": "/笔记/文献阅读/"
+  },
+  {
+    "text": "深度学习",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Batch Normalization vs Layer Normalization",
+        "link": "/笔记/深度学习/Batch Normalization vs Layer Normalization"
+      },
+      {
+        "text": "CNN",
+        "link": "/笔记/深度学习/CNN"
+      },
+      {
+        "text": "cuda环境切换",
+        "link": "/笔记/深度学习/cuda环境切换"
+      },
+      {
+        "text": "数据增广",
+        "link": "/笔记/深度学习/数据增广"
+      },
+      {
+        "text": "梯度",
+        "link": "/笔记/深度学习/梯度"
+      },
+      {
+        "text": "深度学习硬件",
+        "link": "/笔记/深度学习/深度学习硬件"
+      },
+      {
+        "text": "深度学习综述",
+        "link": "/笔记/深度学习/深度学习综述"
+      },
+      {
+        "text": "NLP",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "BERT",
+            "link": "/笔记/深度学习/NLP/BERT"
+          },
+          {
+            "text": "Self-attention",
+            "link": "/笔记/深度学习/NLP/Self-attention"
+          },
+          {
+            "text": "Transformer",
+            "link": "/笔记/深度学习/NLP/Transformer"
+          }
+        ]
+      },
+      {
+        "text": "实验",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "GhostNet轻量化",
+            "link": "/笔记/深度学习/实验/GhostNet轻量化"
+          }
+        ],
+        "link": "/笔记/深度学习/实验/"
+      }
+    ],
+    "link": "/笔记/深度学习/"
   },
   {
     "text": "算法",
@@ -182,69 +250,5 @@
       }
     ],
     "link": "/笔记/算法/"
-  },
-  {
-    "text": "深度学习",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "Batch Normalization vs Layer Normalization",
-        "link": "/笔记/深度学习/Batch Normalization vs Layer Normalization"
-      },
-      {
-        "text": "CNN",
-        "link": "/笔记/深度学习/CNN"
-      },
-      {
-        "text": "cuda环境切换",
-        "link": "/笔记/深度学习/cuda环境切换"
-      },
-      {
-        "text": "数据增广",
-        "link": "/笔记/深度学习/数据增广"
-      },
-      {
-        "text": "梯度",
-        "link": "/笔记/深度学习/梯度"
-      },
-      {
-        "text": "深度学习硬件",
-        "link": "/笔记/深度学习/深度学习硬件"
-      },
-      {
-        "text": "深度学习综述",
-        "link": "/笔记/深度学习/深度学习综述"
-      },
-      {
-        "text": "实验",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "GhostNet轻量化",
-            "link": "/笔记/深度学习/实验/GhostNet轻量化"
-          }
-        ],
-        "link": "/笔记/深度学习/实验/"
-      },
-      {
-        "text": "NLP",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "BERT",
-            "link": "/笔记/深度学习/NLP/BERT"
-          },
-          {
-            "text": "Self-attention",
-            "link": "/笔记/深度学习/NLP/Self-attention"
-          },
-          {
-            "text": "Transformer",
-            "link": "/笔记/深度学习/NLP/Transformer"
-          }
-        ]
-      }
-    ],
-    "link": "/笔记/深度学习/"
   }
 ]
