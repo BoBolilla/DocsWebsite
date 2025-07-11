@@ -65,17 +65,6 @@
     "link": "/笔记/科研/"
   },
   {
-    "text": "阅读",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "富爸爸穷爸爸",
-        "link": "/笔记/阅读/富爸爸穷爸爸"
-      }
-    ],
-    "link": "/笔记/阅读/"
-  },
-  {
     "text": "英语",
     "collapsed": true,
     "items": [
@@ -122,6 +111,17 @@
     "link": "/笔记/课程内容/"
   },
   {
+    "text": "阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "富爸爸穷爸爸",
+        "link": "/笔记/阅读/富爸爸穷爸爸"
+      }
+    ],
+    "link": "/笔记/阅读/"
+  },
+  {
     "text": "文献阅读",
     "collapsed": true,
     "items": [
@@ -140,6 +140,10 @@
           {
             "text": "Layer by Layer Uncovering Hidden Representations in Language Models",
             "link": "/笔记/文献阅读/202507/Layer by Layer Uncovering Hidden Representations in Language Models"
+          },
+          {
+            "text": "LightLoc Learning Outdoor LiDAR Localization at Light Speed",
+            "link": "/笔记/文献阅读/202507/LightLoc Learning Outdoor LiDAR Localization at Light Speed"
           },
           {
             "text": "TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification",
