@@ -1,26 +1,34 @@
 [
   {
-    "text": "Generative AI",
+    "text": "基础",
     "collapsed": true,
     "items": [
       {
-        "text": "第1讲：生成式AI是什么？",
-        "link": "/笔记/Generative AI/第1讲：生成式AI是什么？"
+        "text": "数学",
+        "link": "/笔记/基础/数学"
       },
       {
-        "text": "第2讲：从'工具'从'工具人'",
-        "link": "/笔记/Generative AI/第2讲：从'工具'从'工具人'"
+        "text": "梯度",
+        "link": "/笔记/基础/梯度"
       },
       {
-        "text": "第3讲：你可以训练你自己",
-        "link": "/笔记/Generative AI/第3讲：你可以训练你自己"
+        "text": "线性代数",
+        "link": "/笔记/基础/线性代数"
       },
       {
-        "text": "第4讲： 大型语言模型的训练过程",
-        "link": "/笔记/Generative AI/第4讲： 大型语言模型的训练过程"
+        "text": "英语",
+        "link": "/笔记/基础/英语"
+      },
+      {
+        "text": "连续可导可微可积",
+        "link": "/笔记/基础/连续可导可微可积"
+      },
+      {
+        "text": "项目英语",
+        "link": "/笔记/基础/项目英语"
       }
     ],
-    "link": "/笔记/Generative AI/"
+    "link": "/笔记/基础/"
   },
   {
     "text": "pytorch",
@@ -40,6 +48,50 @@
       }
     ],
     "link": "/笔记/pytorch/"
+  },
+  {
+    "text": "其他",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "git相关",
+        "link": "/笔记/其他/git相关"
+      },
+      {
+        "text": "linux相关",
+        "link": "/笔记/其他/linux相关"
+      },
+      {
+        "text": "乱七八糟",
+        "link": "/笔记/其他/乱七八糟"
+      }
+    ]
+  },
+  {
+    "text": ".obsidian",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "app.j",
+        "link": "/笔记/.obsidian/app.j"
+      },
+      {
+        "text": "appearance.j",
+        "link": "/笔记/.obsidian/appearance.j"
+      },
+      {
+        "text": "core-plugins.j",
+        "link": "/笔记/.obsidian/core-plugins.j"
+      },
+      {
+        "text": "graph.j",
+        "link": "/笔记/.obsidian/graph.j"
+      },
+      {
+        "text": "workspace.j",
+        "link": "/笔记/.obsidian/workspace.j"
+      }
+    ]
   },
   {
     "text": "科研",
@@ -175,10 +227,6 @@
         "link": "/笔记/深度学习/数据增广"
       },
       {
-        "text": "梯度",
-        "link": "/笔记/深度学习/梯度"
-      },
-      {
         "text": "深度学习硬件",
         "link": "/笔记/深度学习/深度学习硬件"
       },
@@ -254,5 +302,48 @@
       }
     ],
     "link": "/笔记/算法/"
+  },
+  {
+    "text": "生成式人工智能",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Generative AI",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "第1讲：生成式AI是什么？",
+            "link": "/笔记/生成式人工智能/Generative AI/第1讲：生成式AI是什么？"
+          },
+          {
+            "text": "第2讲：从'工具'从'工具人'",
+            "link": "/笔记/生成式人工智能/Generative AI/第2讲：从'工具'从'工具人'"
+          },
+          {
+            "text": "第3讲：你可以训练你自己",
+            "link": "/笔记/生成式人工智能/Generative AI/第3讲：你可以训练你自己"
+          },
+          {
+            "text": "第4讲： 大型语言模型的训练过程",
+            "link": "/笔记/生成式人工智能/Generative AI/第4讲： 大型语言模型的训练过程"
+          }
+        ],
+        "link": "/笔记/生成式人工智能/Generative AI/"
+      },
+      {
+        "text": "生成式AI时代下的机器学习",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "HW1 RAG with Agentic System",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW1 RAG with Agentic System"
+          },
+          {
+            "text": "第1讲：生成式AI的技术突破和未来发展",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第1讲：生成式AI的技术突破和未来发展"
+          }
+        ]
+      }
+    ]
   }
 ]
