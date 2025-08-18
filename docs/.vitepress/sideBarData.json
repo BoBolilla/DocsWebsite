@@ -1,36 +1,5 @@
 [
   {
-    "text": "基础",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "数学",
-        "link": "/笔记/基础/数学"
-      },
-      {
-        "text": "梯度",
-        "link": "/笔记/基础/梯度"
-      },
-      {
-        "text": "线性代数",
-        "link": "/笔记/基础/线性代数"
-      },
-      {
-        "text": "英语",
-        "link": "/笔记/基础/英语"
-      },
-      {
-        "text": "连续可导可微可积",
-        "link": "/笔记/基础/连续可导可微可积"
-      },
-      {
-        "text": "项目英语",
-        "link": "/笔记/基础/项目英语"
-      }
-    ],
-    "link": "/笔记/基础/"
-  },
-  {
     "text": "pytorch",
     "collapsed": true,
     "items": [
@@ -68,32 +37,6 @@
     ]
   },
   {
-    "text": ".obsidian",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "app.j",
-        "link": "/笔记/.obsidian/app.j"
-      },
-      {
-        "text": "appearance.j",
-        "link": "/笔记/.obsidian/appearance.j"
-      },
-      {
-        "text": "core-plugins.j",
-        "link": "/笔记/.obsidian/core-plugins.j"
-      },
-      {
-        "text": "graph.j",
-        "link": "/笔记/.obsidian/graph.j"
-      },
-      {
-        "text": "workspace.j",
-        "link": "/笔记/.obsidian/workspace.j"
-      }
-    ]
-  },
-  {
     "text": "科研",
     "collapsed": true,
     "items": [
@@ -115,6 +58,43 @@
       }
     ],
     "link": "/笔记/科研/"
+  },
+  {
+    "text": "基础",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "数学",
+        "link": "/笔记/基础/数学"
+      },
+      {
+        "text": "梯度",
+        "link": "/笔记/基础/梯度"
+      },
+      {
+        "text": "英语",
+        "link": "/笔记/基础/英语"
+      },
+      {
+        "text": "连续可导可微可积",
+        "link": "/笔记/基础/连续可导可微可积"
+      },
+      {
+        "text": "项目英语",
+        "link": "/笔记/基础/项目英语"
+      },
+      {
+        "text": "线性代数",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "线性代数",
+            "link": "/笔记/基础/线性代数/线性代数"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/基础/"
   },
   {
     "text": "英语",
@@ -267,43 +247,6 @@
     "link": "/笔记/深度学习/"
   },
   {
-    "text": "算法",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "auto i与auto& i",
-        "link": "/笔记/算法/auto i与auto& i"
-      },
-      {
-        "text": "heap",
-        "link": "/笔记/算法/heap"
-      },
-      {
-        "text": "Lambda 表达式",
-        "link": "/笔记/算法/Lambda 表达式"
-      },
-      {
-        "text": "连通块",
-        "link": "/笔记/算法/连通块"
-      },
-      {
-        "text": "题解",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "最小覆盖子串",
-            "link": "/笔记/算法/题解/最小覆盖子串"
-          },
-          {
-            "text": "螺旋矩阵",
-            "link": "/笔记/算法/题解/螺旋矩阵"
-          }
-        ]
-      }
-    ],
-    "link": "/笔记/算法/"
-  },
-  {
     "text": "生成式人工智能",
     "collapsed": true,
     "items": [
@@ -345,5 +288,42 @@
         ]
       }
     ]
+  },
+  {
+    "text": "算法",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "auto i与auto& i",
+        "link": "/笔记/算法/auto i与auto& i"
+      },
+      {
+        "text": "heap",
+        "link": "/笔记/算法/heap"
+      },
+      {
+        "text": "Lambda 表达式",
+        "link": "/笔记/算法/Lambda 表达式"
+      },
+      {
+        "text": "连通块",
+        "link": "/笔记/算法/连通块"
+      },
+      {
+        "text": "题解",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "最小覆盖子串",
+            "link": "/笔记/算法/题解/最小覆盖子串"
+          },
+          {
+            "text": "螺旋矩阵",
+            "link": "/笔记/算法/题解/螺旋矩阵"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/算法/"
   }
 ]
