@@ -1,5 +1,7 @@
 ## Batch Normalization vs Layer Normalization
 
+![5703037083f1ed317774b51a2d2e041](./assets/5703037083f1ed317774b51a2d2e041.jpg)
+
 ## Batch Normalization
 
 [李宏毅](https://www.youtube.com/watch?v=BZh1ltr5Rkg&t=49s)  

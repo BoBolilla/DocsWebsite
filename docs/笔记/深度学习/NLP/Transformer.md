@@ -1,4 +1,4 @@
-# Transformer
+# 	Transformer
 
  Transformer 是一个 seq2seq 的模型，输入是序列数据，输出也是序列数据，输出的序列数据长度由模型决定。  
 
@@ -54,6 +54,10 @@ Seq2Seq's model 甚至能用在目标检测上。
 
 ![image-20240305131131949](./assets/2024073-20240305131133520-1388964451.png)
 
+### Embedding
+
+![image-20250819194832882](./assets/image-20250819194832882.png)
+
 ### Encoder
 
 Encoder 的任务是**输入一排向量，然后输出同样长度的一排向量**，这个任务很多模型都能做到，如 RNN、CNN、Self-attention。**Transformer 的 Encoder 用的是 Self-attention**。
@@ -91,6 +95,8 @@ Layer Normalization 是针对单个样本中的每个特征维度进行归一化
 输入序列首先通过一个嵌入层，将每个单词或标记转换为其对应的向量表示。这些向量可能被加上位置编码，以表示单词在序列中的位置。
 
 Nx 表示有 N 个 Block，Add & Norm 表示 Residual Connection 和 Layer Normalization。
+
+![image-20250819194657735](./assets/image-20250819194657735.png)
 
 ------
 
@@ -225,6 +231,16 @@ Cross attention 是连接 Encoder 和 Decoder 之间的桥梁。
 ![image-20240305180204447](./assets/2024073-20240305180206315-23744164.png)
 
 虽然在训练过程中使用 "Teacher Forcing" 可以加速模型的训练和提高模型的稳定性，但需要注意的是，**模型在训练和测试阶段的行为可能会有所不同**。**在推断阶段，由于模型无法直接获取到真实的目标输出，因此可能会产生累积误差或错误传播，导致生成的序列质量下降**。
+
+### 实验
+
+![image-20250819195113370](./assets/image-20250819195113370.png)![image-20250819195130729](./assets/image-20250819195130729.png)![image-20250819195147867](./assets/image-20250819195147867.png)
+
+## 效率对比
+
+![image-20250819194927411](./assets/image-20250819194927411.png)
+
+虽然transfomer的模型比较简单，但是需要较多训练资料训练才能达到比较好的结果
 
 ## Tips of seq2seq model
 

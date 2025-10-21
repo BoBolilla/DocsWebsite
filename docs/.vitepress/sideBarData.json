@@ -37,27 +37,19 @@
     ]
   },
   {
-    "text": "科研",
+    "text": "课程内容",
     "collapsed": true,
     "items": [
       {
-        "text": "method",
-        "link": "/笔记/科研/method"
+        "text": "人工智能",
+        "link": "/笔记/课程内容/人工智能"
       },
       {
-        "text": "偶遇的知识点",
-        "link": "/笔记/科研/偶遇的知识点"
-      },
-      {
-        "text": "英语表达",
-        "link": "/笔记/科研/英语表达"
-      },
-      {
-        "text": "论文检索网站",
-        "link": "/笔记/科研/论文检索网站"
+        "text": "深度学习",
+        "link": "/笔记/课程内容/深度学习"
       }
     ],
-    "link": "/笔记/科研/"
+    "link": "/笔记/课程内容/"
   },
   {
     "text": "基础",
@@ -72,6 +64,10 @@
         "link": "/笔记/基础/梯度"
       },
       {
+        "text": "电脑开机的过程",
+        "link": "/笔记/基础/电脑开机的过程"
+      },
+      {
         "text": "英语",
         "link": "/笔记/基础/英语"
       },
@@ -82,6 +78,43 @@
       {
         "text": "项目英语",
         "link": "/笔记/基础/项目英语"
+      },
+      {
+        "text": "微积分",
+        "collapsed": true,
+        "items": []
+      },
+      {
+        "text": "数据结构",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "数据结构",
+            "link": "/笔记/基础/数据结构/数据结构"
+          },
+          {
+            "text": "栈算表达式",
+            "link": "/笔记/基础/数据结构/栈算表达式"
+          }
+        ]
+      },
+      {
+        "text": "概率论",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "协方差",
+            "link": "/笔记/基础/概率论/协方差"
+          },
+          {
+            "text": "正态分布和中心极限定理",
+            "link": "/笔记/基础/概率论/正态分布和中心极限定理"
+          },
+          {
+            "text": "贝叶斯公式",
+            "link": "/笔记/基础/概率论/贝叶斯公式"
+          }
+        ]
       },
       {
         "text": "线性代数",
@@ -128,21 +161,6 @@
     "link": "/笔记/英语/"
   },
   {
-    "text": "课程内容",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "人工智能",
-        "link": "/笔记/课程内容/人工智能"
-      },
-      {
-        "text": "深度学习",
-        "link": "/笔记/课程内容/深度学习"
-      }
-    ],
-    "link": "/笔记/课程内容/"
-  },
-  {
     "text": "阅读",
     "collapsed": true,
     "items": [
@@ -152,39 +170,6 @@
       }
     ],
     "link": "/笔记/阅读/"
-  },
-  {
-    "text": "文献阅读",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "索引",
-        "link": "/笔记/文献阅读/索引"
-      },
-      {
-        "text": "202507",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer",
-            "link": "/笔记/文献阅读/202507/Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer"
-          },
-          {
-            "text": "Layer by Layer Uncovering Hidden Representations in Language Models",
-            "link": "/笔记/文献阅读/202507/Layer by Layer Uncovering Hidden Representations in Language Models"
-          },
-          {
-            "text": "LightLoc Learning Outdoor LiDAR Localization at Light Speed",
-            "link": "/笔记/文献阅读/202507/LightLoc Learning Outdoor LiDAR Localization at Light Speed"
-          },
-          {
-            "text": "TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification",
-            "link": "/笔记/文献阅读/202507/TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification"
-          }
-        ]
-      }
-    ],
-    "link": "/笔记/文献阅读/"
   },
   {
     "text": "深度学习",
@@ -203,6 +188,14 @@
         "link": "/笔记/深度学习/cuda环境切换"
       },
       {
+        "text": "卷积",
+        "link": "/笔记/深度学习/卷积"
+      },
+      {
+        "text": "损失函数",
+        "link": "/笔记/深度学习/损失函数"
+      },
+      {
         "text": "数据增广",
         "link": "/笔记/深度学习/数据增广"
       },
@@ -213,6 +206,10 @@
       {
         "text": "深度学习综述",
         "link": "/笔记/深度学习/深度学习综述"
+      },
+      {
+        "text": "过眼云烟",
+        "link": "/笔记/深度学习/过眼云烟"
       },
       {
         "text": "NLP",
@@ -245,6 +242,61 @@
       }
     ],
     "link": "/笔记/深度学习/"
+  },
+  {
+    "text": "文献阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "索引",
+        "link": "/笔记/文献阅读/索引"
+      },
+      {
+        "text": "202507",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer",
+            "link": "/笔记/文献阅读/202507/Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer"
+          },
+          {
+            "text": "Layer by Layer Uncovering Hidden Representations in Language Models",
+            "link": "/笔记/文献阅读/202507/Layer by Layer Uncovering Hidden Representations in Language Models"
+          },
+          {
+            "text": "LightLoc Learning Outdoor LiDAR Localization at Light Speed",
+            "link": "/笔记/文献阅读/202507/LightLoc Learning Outdoor LiDAR Localization at Light Speed"
+          },
+          {
+            "text": "TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification",
+            "link": "/笔记/文献阅读/202507/TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification"
+          }
+        ]
+      },
+      {
+        "text": "202510",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Understanding Adversarial Robustness from Feature  Maps of Convolutional Layers",
+            "link": "/笔记/文献阅读/202510/Understanding Adversarial Robustness from Feature  Maps of Convolutional Layers"
+          },
+          {
+            "text": "基于因果干预的序列推荐中动态项目倾向偏见建模",
+            "link": "/笔记/文献阅读/202510/基于因果干预的序列推荐中动态项目倾向偏见建模"
+          },
+          {
+            "text": "基于路径推理的可解释会话推荐",
+            "link": "/笔记/文献阅读/202510/基于路径推理的可解释会话推荐"
+          },
+          {
+            "text": "通过MarkovBlanket提升知识追踪的性能和可解释性",
+            "link": "/笔记/文献阅读/202510/通过MarkovBlanket提升知识追踪的性能和可解释性"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/文献阅读/"
   },
   {
     "text": "生成式人工智能",
@@ -284,10 +336,51 @@
           {
             "text": "第1讲：生成式AI的技术突破和未来发展",
             "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第1讲：生成式AI的技术突破和未来发展"
+          },
+          {
+            "text": "第2讲：AI agent",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第2讲：AI agent"
+          },
+          {
+            "text": "第3讲：模型语言内部运行机制",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第3讲：模型语言内部运行机制"
           }
         ]
       }
     ]
+  },
+  {
+    "text": "科研",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "method",
+        "link": "/笔记/科研/method"
+      },
+      {
+        "text": "偶遇的知识点",
+        "link": "/笔记/科研/偶遇的知识点"
+      },
+      {
+        "text": "英语表达",
+        "link": "/笔记/科研/英语表达"
+      },
+      {
+        "text": "论文检索网站",
+        "link": "/笔记/科研/论文检索网站"
+      },
+      {
+        "text": "方法",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "检索式构建",
+            "link": "/笔记/科研/方法/检索式构建"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/科研/"
   },
   {
     "text": "算法",
