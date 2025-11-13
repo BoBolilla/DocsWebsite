@@ -38,8 +38,9 @@ async function getRes(now, url = '/笔记/', nowDir = dir) {
             if (fileName === 'black-box' || fileName === 'assets'|| (url === '/笔记/' && fileName === 'assets')) continue;
             directorys.push(fileName);
         } else {
-            // 如果是文件，则直接 push 
-            fileName = fileName.slice(0, fileName.length - 3);
+            const ext = path.extname(filePath);
+            if (ext !== '.md') continue;
+            fileName = path.basename(filePath, '.md');
             if (fileName === 'index') continue;
             now.push({
                 text: fileName,

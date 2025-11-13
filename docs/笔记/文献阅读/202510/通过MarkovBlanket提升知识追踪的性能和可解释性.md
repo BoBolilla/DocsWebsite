@@ -1,4 +1,4 @@
-## Improving the performance and explainability of knowledge tracing via markov blanket
+# Improving the performance and explainability of knowledge tracing via markov blanket
 
 | **期刊: Information Processing & Management**（发表日期: **05/2024**） **作者:** Bo Jiang; Yuang Wei; Ting Zhang; Wei Zhang |
 | ------------------------------------------------------------ |

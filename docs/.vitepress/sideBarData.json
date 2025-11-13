@@ -37,6 +37,47 @@
     ]
   },
   {
+    "text": "组会",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "深度学习",
+        "link": "/笔记/组会/深度学习"
+      }
+    ]
+  },
+  {
+    "text": "英语",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "How to stop overthinking",
+        "link": "/笔记/英语/How to stop overthinking"
+      },
+      {
+        "text": "mess",
+        "link": "/笔记/英语/mess"
+      },
+      {
+        "text": "rarely VS really",
+        "link": "/笔记/英语/rarely VS really"
+      },
+      {
+        "text": "The Paradise of Palau",
+        "link": "/笔记/英语/The Paradise of Palau"
+      },
+      {
+        "text": "Words That Won't Stick",
+        "link": "/笔记/英语/Words That Won't Stick"
+      },
+      {
+        "text": "让步状从",
+        "link": "/笔记/英语/让步状从"
+      }
+    ],
+    "link": "/笔记/英语/"
+  },
+  {
     "text": "课程内容",
     "collapsed": true,
     "items": [
@@ -50,6 +91,17 @@
       }
     ],
     "link": "/笔记/课程内容/"
+  },
+  {
+    "text": "阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "富爸爸穷爸爸",
+        "link": "/笔记/阅读/富爸爸穷爸爸"
+      }
+    ],
+    "link": "/笔记/阅读/"
   },
   {
     "text": "基础",
@@ -130,48 +182,6 @@
     "link": "/笔记/基础/"
   },
   {
-    "text": "英语",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "How to stop overthinking",
-        "link": "/笔记/英语/How to stop overthinking"
-      },
-      {
-        "text": "mess",
-        "link": "/笔记/英语/mess"
-      },
-      {
-        "text": "rarely VS really",
-        "link": "/笔记/英语/rarely VS really"
-      },
-      {
-        "text": "The Paradise of Palau",
-        "link": "/笔记/英语/The Paradise of Palau"
-      },
-      {
-        "text": "Words That Won't Stick",
-        "link": "/笔记/英语/Words That Won't Stick"
-      },
-      {
-        "text": "让步状从",
-        "link": "/笔记/英语/让步状从"
-      }
-    ],
-    "link": "/笔记/英语/"
-  },
-  {
-    "text": "阅读",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "富爸爸穷爸爸",
-        "link": "/笔记/阅读/富爸爸穷爸爸"
-      }
-    ],
-    "link": "/笔记/阅读/"
-  },
-  {
     "text": "深度学习",
     "collapsed": true,
     "items": [
@@ -190,6 +200,10 @@
       {
         "text": "卷积",
         "link": "/笔记/深度学习/卷积"
+      },
+      {
+        "text": "循环神经网络",
+        "link": "/笔记/深度学习/循环神经网络"
       },
       {
         "text": "损失函数",
@@ -244,61 +258,6 @@
     "link": "/笔记/深度学习/"
   },
   {
-    "text": "文献阅读",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "索引",
-        "link": "/笔记/文献阅读/索引"
-      },
-      {
-        "text": "202507",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer",
-            "link": "/笔记/文献阅读/202507/Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer"
-          },
-          {
-            "text": "Layer by Layer Uncovering Hidden Representations in Language Models",
-            "link": "/笔记/文献阅读/202507/Layer by Layer Uncovering Hidden Representations in Language Models"
-          },
-          {
-            "text": "LightLoc Learning Outdoor LiDAR Localization at Light Speed",
-            "link": "/笔记/文献阅读/202507/LightLoc Learning Outdoor LiDAR Localization at Light Speed"
-          },
-          {
-            "text": "TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification",
-            "link": "/笔记/文献阅读/202507/TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification"
-          }
-        ]
-      },
-      {
-        "text": "202510",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Understanding Adversarial Robustness from Feature  Maps of Convolutional Layers",
-            "link": "/笔记/文献阅读/202510/Understanding Adversarial Robustness from Feature  Maps of Convolutional Layers"
-          },
-          {
-            "text": "基于因果干预的序列推荐中动态项目倾向偏见建模",
-            "link": "/笔记/文献阅读/202510/基于因果干预的序列推荐中动态项目倾向偏见建模"
-          },
-          {
-            "text": "基于路径推理的可解释会话推荐",
-            "link": "/笔记/文献阅读/202510/基于路径推理的可解释会话推荐"
-          },
-          {
-            "text": "通过MarkovBlanket提升知识追踪的性能和可解释性",
-            "link": "/笔记/文献阅读/202510/通过MarkovBlanket提升知识追踪的性能和可解释性"
-          }
-        ]
-      }
-    ],
-    "link": "/笔记/文献阅读/"
-  },
-  {
     "text": "生成式人工智能",
     "collapsed": true,
     "items": [
@@ -334,6 +293,18 @@
             "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW1 RAG with Agentic System"
           },
           {
+            "text": "HW2 AI Agent2",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW2 AI Agent2"
+          },
+          {
+            "text": "HW5 Finetune is Powerful",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW5 Finetune is Powerful"
+          },
+          {
+            "text": "利用多张GPU训练",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/利用多张GPU训练"
+          },
+          {
             "text": "第1讲：生成式AI的技术突破和未来发展",
             "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第1讲：生成式AI的技术突破和未来发展"
           },
@@ -344,8 +315,17 @@
           {
             "text": "第3讲：模型语言内部运行机制",
             "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第3讲：模型语言内部运行机制"
+          },
+          {
+            "text": "第5讲：预训练对齐",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第5讲：预训练对齐"
+          },
+          {
+            "text": "第6讲：后训练与遗忘",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第6讲：后训练与遗忘"
           }
-        ]
+        ],
+        "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/"
       }
     ]
   },
@@ -368,6 +348,26 @@
       {
         "text": "论文检索网站",
         "link": "/笔记/科研/论文检索网站"
+      },
+      {
+        "text": "写作",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "写作",
+            "link": "/笔记/科研/写作/写作"
+          }
+        ]
+      },
+      {
+        "text": "审稿",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "审稿",
+            "link": "/笔记/科研/审稿/审稿"
+          }
+        ]
       },
       {
         "text": "方法",
@@ -418,5 +418,105 @@
       }
     ],
     "link": "/笔记/算法/"
+  },
+  {
+    "text": "文献阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "AI阅读prompt",
+        "link": "/笔记/文献阅读/AI阅读prompt"
+      },
+      {
+        "text": "sketch",
+        "link": "/笔记/文献阅读/sketch"
+      },
+      {
+        "text": "索引",
+        "link": "/笔记/文献阅读/索引"
+      },
+      {
+        "text": "202511",
+        "collapsed": true,
+        "items": []
+      },
+      {
+        "text": "202507",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer",
+            "link": "/笔记/文献阅读/202507/Fine-Grained Visual Classification via Internal  Ensemble Learning Transformer"
+          },
+          {
+            "text": "Layer by Layer Uncovering Hidden Representations in Language Models",
+            "link": "/笔记/文献阅读/202507/Layer by Layer Uncovering Hidden Representations in Language Models"
+          },
+          {
+            "text": "LightLoc Learning Outdoor LiDAR Localization at Light Speed",
+            "link": "/笔记/文献阅读/202507/LightLoc Learning Outdoor LiDAR Localization at Light Speed"
+          },
+          {
+            "text": "TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification",
+            "link": "/笔记/文献阅读/202507/TransIFC Invariant Cues-Aware Feature  Concentration Learning for Efficient Fine-Grained  Bird Image Classification"
+          }
+        ]
+      },
+      {
+        "text": "202510",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CML-BENCH 评估与增强LLM驱动的电影剧本生成框架",
+            "link": "/笔记/文献阅读/202510/CML-BENCH 评估与增强LLM驱动的电影剧本生成框架"
+          },
+          {
+            "text": "Understanding Adversarial Robustness from Feature  Maps of Convolutional Layers",
+            "link": "/笔记/文献阅读/202510/Understanding Adversarial Robustness from Feature  Maps of Convolutional Layers"
+          },
+          {
+            "text": "基于因果干预的序列推荐中动态项目倾向偏见建模",
+            "link": "/笔记/文献阅读/202510/基于因果干预的序列推荐中动态项目倾向偏见建模"
+          },
+          {
+            "text": "基于路径推理的可解释会话推荐",
+            "link": "/笔记/文献阅读/202510/基于路径推理的可解释会话推荐"
+          },
+          {
+            "text": "推荐系统中偏好一致性知识蒸馏",
+            "link": "/笔记/文献阅读/202510/推荐系统中偏好一致性知识蒸馏"
+          },
+          {
+            "text": "模式级透明序列推荐",
+            "link": "/笔记/文献阅读/202510/模式级透明序列推荐"
+          },
+          {
+            "text": "知识追踪中的判别响应再平衡",
+            "link": "/笔记/文献阅读/202510/知识追踪中的判别响应再平衡"
+          },
+          {
+            "text": "通过MarkovBlanket提升知识追踪的性能和可解释性",
+            "link": "/笔记/文献阅读/202510/通过MarkovBlanket提升知识追踪的性能和可解释性"
+          }
+        ]
+      },
+      {
+        "text": "summary",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "KD字典不一致",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "KD字典不一致",
+                "link": "/笔记/文献阅读/summary/KD字典不一致/KD字典不一致"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/文献阅读/"
   }
 ]
