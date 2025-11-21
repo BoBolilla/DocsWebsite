@@ -50,6 +50,36 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/BoBolilla' }
     ],
 
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        },
+        miniSearch: {
+          searchOptions: {
+            fuzzy: 0.2,
+            prefix: true
+          }
+        }
+      }
+    },
+
      outline: {
       level: [2, 3], // 显示 h2 和 h3 标题
       label: '本页目录' // 可选：自定义大纲标题

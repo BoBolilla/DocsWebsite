@@ -37,6 +37,16 @@
     ]
   },
   {
+    "text": "Output",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "知识输出",
+        "link": "/笔记/Output/知识输出"
+      }
+    ]
+  },
+  {
     "text": "组会",
     "collapsed": true,
     "items": [
@@ -137,20 +147,6 @@
         "items": []
       },
       {
-        "text": "数据结构",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "数据结构",
-            "link": "/笔记/基础/数据结构/数据结构"
-          },
-          {
-            "text": "栈算表达式",
-            "link": "/笔记/基础/数据结构/栈算表达式"
-          }
-        ]
-      },
-      {
         "text": "概率论",
         "collapsed": true,
         "items": [
@@ -165,6 +161,20 @@
           {
             "text": "贝叶斯公式",
             "link": "/笔记/基础/概率论/贝叶斯公式"
+          }
+        ]
+      },
+      {
+        "text": "数据结构",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "数据结构",
+            "link": "/笔记/基础/数据结构/数据结构"
+          },
+          {
+            "text": "栈算表达式",
+            "link": "/笔记/基础/数据结构/栈算表达式"
           }
         ]
       },
@@ -323,64 +333,15 @@
           {
             "text": "第6讲：后训练与遗忘",
             "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第6讲：后训练与遗忘"
+          },
+          {
+            "text": "第7讲：深度思考Reasoning",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第7讲：深度思考Reasoning"
           }
         ],
         "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/"
       }
     ]
-  },
-  {
-    "text": "科研",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "method",
-        "link": "/笔记/科研/method"
-      },
-      {
-        "text": "偶遇的知识点",
-        "link": "/笔记/科研/偶遇的知识点"
-      },
-      {
-        "text": "英语表达",
-        "link": "/笔记/科研/英语表达"
-      },
-      {
-        "text": "论文检索网站",
-        "link": "/笔记/科研/论文检索网站"
-      },
-      {
-        "text": "写作",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "写作",
-            "link": "/笔记/科研/写作/写作"
-          }
-        ]
-      },
-      {
-        "text": "审稿",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "审稿",
-            "link": "/笔记/科研/审稿/审稿"
-          }
-        ]
-      },
-      {
-        "text": "方法",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "检索式构建",
-            "link": "/笔记/科研/方法/检索式构建"
-          }
-        ]
-      }
-    ],
-    "link": "/笔记/科研/"
   },
   {
     "text": "算法",
@@ -420,6 +381,59 @@
     "link": "/笔记/算法/"
   },
   {
+    "text": "科研",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "method",
+        "link": "/笔记/科研/method"
+      },
+      {
+        "text": "偶遇的知识点",
+        "link": "/笔记/科研/偶遇的知识点"
+      },
+      {
+        "text": "英语表达",
+        "link": "/笔记/科研/英语表达"
+      },
+      {
+        "text": "论文检索网站",
+        "link": "/笔记/科研/论文检索网站"
+      },
+      {
+        "text": "写作",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "写作",
+            "link": "/笔记/科研/写作/写作"
+          }
+        ]
+      },
+      {
+        "text": "方法",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "检索式构建",
+            "link": "/笔记/科研/方法/检索式构建"
+          }
+        ]
+      },
+      {
+        "text": "审稿",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "审稿",
+            "link": "/笔记/科研/审稿/审稿"
+          }
+        ]
+      }
+    ],
+    "link": "/笔记/科研/"
+  },
+  {
     "text": "文献阅读",
     "collapsed": true,
     "items": [
@@ -434,11 +448,6 @@
       {
         "text": "索引",
         "link": "/笔记/文献阅读/索引"
-      },
-      {
-        "text": "202511",
-        "collapsed": true,
-        "items": []
       },
       {
         "text": "202507",
@@ -497,6 +506,16 @@
           {
             "text": "通过MarkovBlanket提升知识追踪的性能和可解释性",
             "link": "/笔记/文献阅读/202510/通过MarkovBlanket提升知识追踪的性能和可解释性"
+          }
+        ]
+      },
+      {
+        "text": "202511",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "SID-basedvsLLM-as-RS模型缩放角度",
+            "link": "/笔记/文献阅读/202511/SID-basedvsLLM-as-RS模型缩放角度"
           }
         ]
       },

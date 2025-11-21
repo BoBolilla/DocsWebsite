@@ -1,29 +1,50 @@
 {
-  "hash": "64e0b271",
-  "configHash": "c119860c",
+  "hash": "f22f36cd",
+  "configHash": "f9de143a",
   "lockfileHash": "15049437",
-  "browserHash": "6c79faa1",
+  "browserHash": "48b3a67d",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "e1b72adb",
+      "fileHash": "c3db03a9",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.7.2/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "de9b4686",
+      "fileHash": "34361fc4",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@12.8.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "ffe3c95b",
+      "fileHash": "34fb6e5b",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+integrations@12.8.2_focus-trap@7.6.4/node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "8f1bc29c",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "00a1460d",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../../node_modules/.pnpm/minisearch@7.1.2/node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "a51cb733",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-6ODFCPKZ": {
+      "file": "chunk-6ODFCPKZ.js"
+    },
     "chunk-JN5NFW2R": {
       "file": "chunk-JN5NFW2R.js"
     }

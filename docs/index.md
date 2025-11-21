@@ -32,3 +32,5 @@ features:
     details: 《春晓》孟浩然
 ---
 
+<SearchBox />
+
