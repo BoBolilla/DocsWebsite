@@ -37,26 +37,6 @@
     ]
   },
   {
-    "text": "Output",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "知识输出",
-        "link": "/笔记/Output/知识输出"
-      }
-    ]
-  },
-  {
-    "text": "组会",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "深度学习",
-        "link": "/笔记/组会/深度学习"
-      }
-    ]
-  },
-  {
     "text": "英语",
     "collapsed": true,
     "items": [
@@ -88,6 +68,17 @@
     "link": "/笔记/英语/"
   },
   {
+    "text": "阅读",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "富爸爸穷爸爸",
+        "link": "/笔记/阅读/富爸爸穷爸爸"
+      }
+    ],
+    "link": "/笔记/阅读/"
+  },
+  {
     "text": "课程内容",
     "collapsed": true,
     "items": [
@@ -101,17 +92,6 @@
       }
     ],
     "link": "/笔记/课程内容/"
-  },
-  {
-    "text": "阅读",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "富爸爸穷爸爸",
-        "link": "/笔记/阅读/富爸爸穷爸爸"
-      }
-    ],
-    "link": "/笔记/阅读/"
   },
   {
     "text": "基础",
@@ -147,24 +127,6 @@
         "items": []
       },
       {
-        "text": "概率论",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "协方差",
-            "link": "/笔记/基础/概率论/协方差"
-          },
-          {
-            "text": "正态分布和中心极限定理",
-            "link": "/笔记/基础/概率论/正态分布和中心极限定理"
-          },
-          {
-            "text": "贝叶斯公式",
-            "link": "/笔记/基础/概率论/贝叶斯公式"
-          }
-        ]
-      },
-      {
         "text": "数据结构",
         "collapsed": true,
         "items": [
@@ -185,6 +147,24 @@
           {
             "text": "线性代数",
             "link": "/笔记/基础/线性代数/线性代数"
+          }
+        ]
+      },
+      {
+        "text": "概率论",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "协方差",
+            "link": "/笔记/基础/概率论/协方差"
+          },
+          {
+            "text": "正态分布和中心极限定理",
+            "link": "/笔记/基础/概率论/正态分布和中心极限定理"
+          },
+          {
+            "text": "贝叶斯公式",
+            "link": "/笔记/基础/概率论/贝叶斯公式"
           }
         ]
       }
@@ -236,6 +216,17 @@
         "link": "/笔记/深度学习/过眼云烟"
       },
       {
+        "text": "实验",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "GhostNet轻量化",
+            "link": "/笔记/深度学习/实验/GhostNet轻量化"
+          }
+        ],
+        "link": "/笔记/深度学习/实验/"
+      },
+      {
         "text": "NLP",
         "collapsed": true,
         "items": [
@@ -252,96 +243,62 @@
             "link": "/笔记/深度学习/NLP/Transformer"
           }
         ]
-      },
-      {
-        "text": "实验",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "GhostNet轻量化",
-            "link": "/笔记/深度学习/实验/GhostNet轻量化"
-          }
-        ],
-        "link": "/笔记/深度学习/实验/"
       }
     ],
     "link": "/笔记/深度学习/"
   },
   {
-    "text": "生成式人工智能",
+    "text": "科研",
     "collapsed": true,
     "items": [
       {
-        "text": "Generative AI",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "第1讲：生成式AI是什么？",
-            "link": "/笔记/生成式人工智能/Generative AI/第1讲：生成式AI是什么？"
-          },
-          {
-            "text": "第2讲：从'工具'从'工具人'",
-            "link": "/笔记/生成式人工智能/Generative AI/第2讲：从'工具'从'工具人'"
-          },
-          {
-            "text": "第3讲：你可以训练你自己",
-            "link": "/笔记/生成式人工智能/Generative AI/第3讲：你可以训练你自己"
-          },
-          {
-            "text": "第4讲： 大型语言模型的训练过程",
-            "link": "/笔记/生成式人工智能/Generative AI/第4讲： 大型语言模型的训练过程"
-          }
-        ],
-        "link": "/笔记/生成式人工智能/Generative AI/"
+        "text": "method",
+        "link": "/笔记/科研/method"
       },
       {
-        "text": "生成式AI时代下的机器学习",
+        "text": "偶遇的知识点",
+        "link": "/笔记/科研/偶遇的知识点"
+      },
+      {
+        "text": "英语表达",
+        "link": "/笔记/科研/英语表达"
+      },
+      {
+        "text": "论文检索网站",
+        "link": "/笔记/科研/论文检索网站"
+      },
+      {
+        "text": "写作",
         "collapsed": true,
         "items": [
           {
-            "text": "HW1 RAG with Agentic System",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW1 RAG with Agentic System"
-          },
-          {
-            "text": "HW2 AI Agent2",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW2 AI Agent2"
-          },
-          {
-            "text": "HW5 Finetune is Powerful",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW5 Finetune is Powerful"
-          },
-          {
-            "text": "利用多张GPU训练",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/利用多张GPU训练"
-          },
-          {
-            "text": "第1讲：生成式AI的技术突破和未来发展",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第1讲：生成式AI的技术突破和未来发展"
-          },
-          {
-            "text": "第2讲：AI agent",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第2讲：AI agent"
-          },
-          {
-            "text": "第3讲：模型语言内部运行机制",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第3讲：模型语言内部运行机制"
-          },
-          {
-            "text": "第5讲：预训练对齐",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第5讲：预训练对齐"
-          },
-          {
-            "text": "第6讲：后训练与遗忘",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第6讲：后训练与遗忘"
-          },
-          {
-            "text": "第7讲：深度思考Reasoning",
-            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第7讲：深度思考Reasoning"
+            "text": "写作",
+            "link": "/笔记/科研/写作/写作"
           }
-        ],
-        "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/"
+        ]
+      },
+      {
+        "text": "审稿",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "审稿",
+            "link": "/笔记/科研/审稿/审稿"
+          }
+        ]
+      },
+      {
+        "text": "方法",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "检索式构建",
+            "link": "/笔记/科研/方法/检索式构建"
+          }
+        ]
       }
-    ]
+    ],
+    "link": "/笔记/科研/"
   },
   {
     "text": "算法",
@@ -381,57 +338,26 @@
     "link": "/笔记/算法/"
   },
   {
-    "text": "科研",
+    "text": ".obsidian",
     "collapsed": true,
     "items": [
       {
-        "text": "method",
-        "link": "/笔记/科研/method"
-      },
-      {
-        "text": "偶遇的知识点",
-        "link": "/笔记/科研/偶遇的知识点"
-      },
-      {
-        "text": "英语表达",
-        "link": "/笔记/科研/英语表达"
-      },
-      {
-        "text": "论文检索网站",
-        "link": "/笔记/科研/论文检索网站"
-      },
-      {
-        "text": "写作",
+        "text": "themes",
         "collapsed": true,
         "items": [
           {
-            "text": "写作",
-            "link": "/笔记/科研/写作/写作"
-          }
-        ]
-      },
-      {
-        "text": "方法",
-        "collapsed": true,
-        "items": [
+            "text": "Blue Topaz",
+            "collapsed": true,
+            "items": []
+          },
           {
-            "text": "检索式构建",
-            "link": "/笔记/科研/方法/检索式构建"
-          }
-        ]
-      },
-      {
-        "text": "审稿",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "审稿",
-            "link": "/笔记/科研/审稿/审稿"
+            "text": "Things",
+            "collapsed": true,
+            "items": []
           }
         ]
       }
-    ],
-    "link": "/笔记/科研/"
+    ]
   },
   {
     "text": "文献阅读",
@@ -440,6 +366,10 @@
       {
         "text": "AI阅读prompt",
         "link": "/笔记/文献阅读/AI阅读prompt"
+      },
+      {
+        "text": "EssayGems",
+        "link": "/笔记/文献阅读/EssayGems"
       },
       {
         "text": "sketch",
@@ -537,5 +467,113 @@
       }
     ],
     "link": "/笔记/文献阅读/"
+  },
+  {
+    "text": "生成式人工智能",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Generative AI",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "第1讲：生成式AI是什么？",
+            "link": "/笔记/生成式人工智能/Generative AI/第1讲：生成式AI是什么？"
+          },
+          {
+            "text": "第2讲：从'工具'从'工具人'",
+            "link": "/笔记/生成式人工智能/Generative AI/第2讲：从'工具'从'工具人'"
+          },
+          {
+            "text": "第3讲：你可以训练你自己",
+            "link": "/笔记/生成式人工智能/Generative AI/第3讲：你可以训练你自己"
+          },
+          {
+            "text": "第4讲： 大型语言模型的训练过程",
+            "link": "/笔记/生成式人工智能/Generative AI/第4讲： 大型语言模型的训练过程"
+          }
+        ],
+        "link": "/笔记/生成式人工智能/Generative AI/"
+      },
+      {
+        "text": "生成式AI时代下的机器学习",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "HW1 RAG with Agentic System",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW1 RAG with Agentic System"
+          },
+          {
+            "text": "HW2 AI Agent2",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW2 AI Agent2"
+          },
+          {
+            "text": "HW5 Finetune is Powerful",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/HW5 Finetune is Powerful"
+          },
+          {
+            "text": "利用多张GPU训练",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/利用多张GPU训练"
+          },
+          {
+            "text": "第10讲：Model Merging",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第10讲：Model Merging"
+          },
+          {
+            "text": "第1讲：生成式AI的技术突破和未来发展",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第1讲：生成式AI的技术突破和未来发展"
+          },
+          {
+            "text": "第2讲：AI agent",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第2讲：AI agent"
+          },
+          {
+            "text": "第3讲：模型语言内部运行机制",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第3讲：模型语言内部运行机制"
+          },
+          {
+            "text": "第5讲：预训练对齐",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第5讲：预训练对齐"
+          },
+          {
+            "text": "第6讲：后训练与遗忘",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第6讲：后训练与遗忘"
+          },
+          {
+            "text": "第7讲：深度思考Reasoning",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第7讲：深度思考Reasoning"
+          },
+          {
+            "text": "第8讲：大语言模型评估",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第8讲：大语言模型评估"
+          },
+          {
+            "text": "第9讲：Model Editing",
+            "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/第9讲：Model Editing"
+          },
+          {
+            "text": "第10讲：Model Merging.assets",
+            "collapsed": true,
+            "items": []
+          },
+          {
+            "text": "第7讲：深度思考Reasoning.assets",
+            "collapsed": true,
+            "items": []
+          },
+          {
+            "text": "第8讲：大语言模型评估.assets",
+            "collapsed": true,
+            "items": []
+          },
+          {
+            "text": "第9讲：Model Editing.assets",
+            "collapsed": true,
+            "items": []
+          }
+        ],
+        "link": "/笔记/生成式人工智能/生成式AI时代下的机器学习/"
+      }
+    ]
   }
 ]
